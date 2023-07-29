@@ -47,7 +47,8 @@ Loop Parse, string_to_search, "`n" "`r"
     }
 }
 
-MsgBox("The best match for 'J4roW1nklerD1stance' was found on line: " BestMatchLines.Line "`nwith a score of: " BestMatchLines.Score)
+MsgBox("The best match for 'J4roW1nklerD1stance' was found on line: "
+        BestMatchLines.Line "`nwith a score of: " BestMatchLines.Score)
 ```
 
 
