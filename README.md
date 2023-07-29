@@ -4,25 +4,14 @@
 
 This library provides fuzzy matching functionalities using C# and .NET Framework Interop (CLR) in AutoHotkeyv2. It allows you to calculate the similarity between two strings based on various fuzzy matching algorithms.
 
-## Requirements
+### Credit
 
-- AutoHotkey v2.0-beta.1 or later
-
-## Credit
-
-CLR.ahk provided by 
-Author: Lexikos
-Version: 2.0
-
-
-
-```ahk
-#include "FuzzyMatch.ahk"
-```
+CLR.ahk provided by Lexikos; Version: 2.0
 
 ## Usage
 
-```ahk
+```autohotkey
+#include "FuzzyMatch.ahk"
 Fuz := Fuzzy()
 
 ;Fuzzy Match Score
