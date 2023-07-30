@@ -7,7 +7,19 @@
 ; ;   Version:    2.0
 ; ;   Requires:	AutoHotkey v2.0-beta.1
 
+/*
+val1 := Fuz.Match("M4tch", "Match") ; 0.80
+val2 := Fuz.Match("Match", string_to_search) ; 0.0014710208884965992
 
+;Levenshtein Distance
+val3 := Fuz.LevenshteinDistance("hel1lo", "hello") ; 1
+
+;Jaro Distance
+val4 := Fuz.JaroDistance("Jaroooo", string_to_search) ; 0
+
+;Jaro-Winkler Distance
+val5 := Fuz.JaroWinklerDistance("W1nkler", string_to_search) ; 1
+*/
 class Fuzzy
 {
     static Call() {
