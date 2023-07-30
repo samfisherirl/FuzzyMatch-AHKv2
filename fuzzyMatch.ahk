@@ -8,6 +8,9 @@
 ; ;   Requires:	AutoHotkey v2.0-beta.1
 
 /*
+#include "FuzzyMatch.ahk"
+Fuz := Fuzzy()
+
 val1 := Fuz.Match("M4tch", "Match") ; 0.80
 val2 := Fuz.Match("Match", string_to_search) ; 0.0014710208884965992
 
